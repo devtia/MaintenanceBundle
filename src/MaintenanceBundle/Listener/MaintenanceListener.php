@@ -75,7 +75,7 @@ class MaintenanceListener implements EventSubscriberInterface
 
         $requestUri = $event->getRequest()->getRequestUri();
         foreach ($this->routesPrefixes as $routePrefix) {
-            $routeRegex = $this->generateRouteRegex($routePrefix);
+            $routeRegex = $this->generateRouteRegex($routePrefix[0]);
             if (preg_match($routeRegex, $requestUri)) {
                 return true;
             }
@@ -88,7 +88,7 @@ class MaintenanceListener implements EventSubscriberInterface
     {
         $requestUri = $event->getRequest()->getRequestUri();
         foreach ($this->routesPrefixes as $routePrefix) {
-            $routeRegex = $this->generateRouteRegex($routePrefix);
+            $routeRegex = $this->generateRouteRegex($routePrefix[0]);
             if (preg_match($routeRegex, $requestUri)) {
                 if (array_key_exists(1, $routePrefix)) {
                     return $routePrefix[1];
