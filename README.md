@@ -62,7 +62,7 @@ maintenance:
 
 The bundle provides a default template like this:
 
-
+![screenshot](https://raw.githubusercontent.com/devtia/MaintenanceBundle/master/Resources/doc/default-template.jpg)
 
 You can create a custom template creating a file at this path:
 
