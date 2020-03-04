@@ -1,0 +1,6 @@
+services:
+  devtia.maintenance_listenter.listener:
+    class: Devtia\MaintenanceBundle\Listener\MaintenanceListener
+    tags:
+      - { name: kernel.event_subscriber, event: kernel.request }
+    arguments: ['%devtia_maintenance.enable_maintenance%', '%devtia_maintenance.routes_prefixes%', '@service_container']

@@ -1,0 +1,17 @@
+{
+  "name": "devtia/maintenance-bundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jaime Martínez",
+      "email": "jaime@devtia.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Devtia\\MaintenanceBundle\\": "src/"
+    }
+  },
+  "require": {}
+}
