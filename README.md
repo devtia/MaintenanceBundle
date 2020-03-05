@@ -5,14 +5,6 @@ and a rapid deployment. This allows you to correct any errors in your applicatio
 
 You can also define only some routes (with PHP regex) to display the message.
 
-Name | Badge | Name | Badge
---- | --- | --- | --- |
-Build | [![Build Status](https://travis-ci.org/desarrolla2/MailExceptionBundle.svg)](https://travis-ci.org/desarrolla2/MailExceptionBundle) | Latest Stable | [![Latest Stable Version](https://poser.pugx.org/desarrolla2/mail-exception-bundle/v/stable.svg)](https://packagist.org/packages/desarrolla2/mail-exception-bundle)
-Quality Score | [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/desarrolla2/MailExceptionBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/MailExceptionBundle/) | Latest Unstable | [![Latest Unstable Version](https://poser.pugx.org/desarrolla2/mail-exception-bundle/v/unstable.svg)](https://packagist.org/packages/desarrolla2/mail-exception-bundle)
-Code Coverage | [![Code Coverage](https://scrutinizer-ci.com/g/desarrolla2/MailExceptionBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/desarrolla2/MailExceptionBundle/) | Total Downloads | [![Total Downloads](https://poser.pugx.org/desarrolla2/mail-exception-bundle/downloads.svg)](https://packagist.org/packages/desarrolla2/mail-exception-bundle)
-Insight | [![SensioLabsInsight](https://insight.sensiolabs.com/projects/8a4bd559-c4dc-41f0-a405-90115a69062f/mini.png)](https://insight.sensiolabs.com/projects/8a4bd559-c4dc-41f0-a405-90115a69062f) |  License | [![License](https://poser.pugx.org/desarrolla2/mail-exception-bundle/license.svg)](https://packagist.org/packages/desarrolla2/mail-exception-bundle)
-Dependencies | [![Dependency Status](https://www.versioneye.com/user/projects/546c88049dcf6d700900036f/badge.png)](https://www.versioneye.com/user/projects/546c88049dcf6d700900036f) | | |
-
 ## Installation
 
 Download the Bundle.
