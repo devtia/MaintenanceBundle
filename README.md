@@ -77,7 +77,7 @@ the custom_maintenance.html.twig template in all routes that match with 'admin' 
 
 ## Regex
 
-You can learn about PHP regex in this [link](https://www.php.net/manual/es/reference.pcre.pattern.syntax.php) and try them [here](https://www.phpliveregex.com/).
+You can learn about PHP regex in this [link](https://www.php.net/manual/es/reference.pcre.pattern.syntax.php) and try them [here](https://regex101.com/).
 
 The MaintenanceBundle simplifies the configuration add to ALL your routes_prefixes the initial and end slash ('/') and the wildcard .* at the end. With the configuration example shows above, the bundle create this regex:
 
